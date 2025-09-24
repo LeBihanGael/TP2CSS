@@ -11,7 +11,7 @@
     font-weight: bold;
 }
 
-#contenu {
+.contenu {
     background-color: chartreuse;
     width: 100%;
     height: 750px;
@@ -22,7 +22,6 @@
     font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    
 }
 
 #p2p {
@@ -47,12 +46,12 @@
     font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    position: relative;
-    top: 0px;
-    left: -920px;
+    float: left;
+    
 }
 #new {
     background-color: brown;
     float: right;
-    
+    width: 10%;
+    height: 10%;
 }
